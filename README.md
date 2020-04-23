@@ -1,16 +1,16 @@
-# POCOBOT
-[<img src="https://github.com/shanuflash/tgbot/blob/master/harley.png?raw=true" align="right" width="240">](https://t.me/Pocophone_bot)
+# Shallu
+[<img src="https://github.com/shanuflash/tgbot/blob/master/harley.png?raw=true" align="right" width="240">](https://t.me/bot)
 A modular telegram Python bot running on python3 with an sqlalchemy database.
 
 Originally a simple group management bot with multiple admin features, it has evolved, becoming extremely modular and 
 simple to use.
 
-Can be found on telegram as [ʜᴀʀʟᴇʏ ǫᴜɪɴɴ](https://t.me/Harley_Quinn_Bot).
+Can be found on telegram as [Shallu](https://t.me/shalluBot).
 
-Join the [news channel](https://t.me/JokerHarleyNews) if you just want to stay in the loop about new features or
+Join the [news channel](https://t.me/groupdonorg) if you just want to stay in the loop about new features or
 announcements.
 
-Alternatively, [find me on telegram](https://t.me/ShanuFlash)! (Keep all support questions in the here, where I can help you ;))
+Alternatively, [find me on telegram](https://t.me/groupdonsupport)! (Keep all support questions in the here, where I can help you ;))
 
 ## Starting the bot.
 
@@ -41,8 +41,8 @@ from tg_bot.sample_config import Config
 
 
 class Development(Config):
-    OWNER_ID = 573925010  # my telegram ID
-    OWNER_USERNAME = "ShanuFlash"  # my telegram username
+    OWNER_ID = 707038723  # my telegram ID
+    OWNER_USERNAME = "avishekbhattacharjee"  # my telegram username
     API_KEY = "your bot api key"  # my api key, as provided by the botfather
     SQLALCHEMY_DATABASE_URI = 'postgresql://username:password@localhost:5432/database'  # sample db credentials
     MESSAGE_DUMP = '-1234567890' # some group chat that your bot is a member of
